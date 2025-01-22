@@ -6,13 +6,13 @@ Subject: [PATCH 3/5] rockchip: overclock to 2.2/1.8 GHz for NanoPi4 devices
 ---
  ...overclock-to-2.2-1.8-GHz-for-NanoPi4.patch | 180 ++++++++++++++++++
  1 file changed, 180 insertions(+)
- create mode 100644 target/linux/rockchip/patches-5.4/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch
+ create mode 100644 target/linux/rockchip/patches-6.12/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch
 
-diff --git a/target/linux/rockchip/patches-5.4/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch b/target/linux/rockchip/patches-5.4/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch
+diff --git a/target/linux/rockchip/patches-6.12/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch b/target/linux/rockchip/patches-5.4/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch
 new file mode 100644
 index 0000000000..7f7c8f9cbf
 --- /dev/null
-+++ b/target/linux/rockchip/patches-5.4/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch
++++ b/target/linux/rockchip/patches-6.12/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch
 @@ -0,0 +1,180 @@
 +From 04202df5cb497b1934c95211cf43784ef62245a4 Mon Sep 17 00:00:00 2001
 +From: Tianling Shen <cnsztl@project-openwrt.eu.org>
